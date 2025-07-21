@@ -1,0 +1,27 @@
+{
+  "name": "@myprojects/global-libs",
+  "version": "1.0.0",
+  "description": "Global Node.js dependencies for all my projects",
+  "main": "index.js",
+  "scripts": {
+    "install": "pnpm install",
+    "update": "pnpm update",
+    "list": "pnpm list"
+  },
+  "keywords": ["nodejs", "express", "mysql", "global-deps"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/global_libs.git"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
