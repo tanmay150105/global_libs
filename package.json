@@ -4,7 +4,6 @@
   "description": "Global Node.js dependencies for all my projects",
   "main": "index.js",
   "scripts": {
-    "install": "pnpm install",
     "update": "pnpm update",
     "list": "pnpm list"
   },
